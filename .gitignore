@@ -32,3 +32,10 @@ ehthumbs.db
 desktop.ini
 .vscode/
 .idea/
+
+# Local documents and license (kept locally, excluded from GitHub)
+LICENSE
+report/*.pdf
+report/*.docx
+report/*.doc
+report/project_report.md

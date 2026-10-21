@@ -10,7 +10,6 @@
   <a href="https://github.com/Dhileepk-18"><img src="https://img.shields.io/badge/Author-K.%20Dhileep%20kumar-orange.svg" alt="Author" /></a>
   <a href="#-model-evaluation--performance-benchmarks"><img src="https://img.shields.io/badge/Model%20Accuracy-80.45%25-brightgreen.svg" alt="Model Accuracy" /></a>
   <a href="#-model-evaluation--performance-benchmarks"><img src="https://img.shields.io/badge/ROC--AUC-0.8516-success.svg" alt="ROC-AUC" /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-lightgrey.svg" alt="License" /></a>
 </p>
 
 ---
@@ -21,7 +20,7 @@ Customer attrition (or **churn**) occurs when a customer cancels or terminates t
 
 This project delivers an end-to-end mathematical data science framework developed in **R (v4.6.1)**. Rather than treating churn prediction as an uninterpretable "black box," this repository emphasizes foundational principles of **Probability Theory**, **Descriptive and Inferential Statistics**, and **Binary Logistic Regression**.
 
-The project couples comprehensive mathematical rigor with a production-grade, multi-tab **R Shiny interactive web application** and a publication-quality **23-page academic laboratory report** (available in both [PDF](report/CUSTOMER_CHURN_REPORT.pdf) and [DOCX](report/CUSTOMER_CHURN_REPORT.docx)).
+The project couples comprehensive mathematical rigor with a production-grade, multi-tab **R Shiny interactive web application** and automated statistical analysis suites.
 
 ---
 
@@ -190,10 +189,6 @@ Customer_churn/
 │   ├── visualization.R                 # Publication-grade ggplot2 plotting suite
 │   └── prediction.R                    # Logistic regression, confusion matrix, ROC-AUC
 ├── report/
-│   ├── CUSTOMER_CHURN_REPORT.pdf       # 📄 23-page comprehensive academic project report (PDF)
-│   ├── CUSTOMER_CHURN_REPORT.docx      # 📄 23-page formatted project report (Word)
-│   ├── Customer_Churn_Documentation.docx # Supplemental project documentation
-│   ├── project_report.md               # Markdown academic report
 │   └── generated_assets/
 │       ├── web_screenshots/           # Live R Shiny interface screenshots (5 screens)
 │       ├── web_plots/                 # High-resolution ggplot2 graphics (10 plots)
@@ -270,35 +265,8 @@ Rscript R/prediction.R
 
 ---
 
-## 📑 Academic Report
-
-The repository includes a complete **23-page academic laboratory report** matching university engineering project standards:
-- **PDF Version:** [`report/CUSTOMER_CHURN_REPORT.pdf`](report/CUSTOMER_CHURN_REPORT.pdf)
-- **Word Version:** [`report/CUSTOMER_CHURN_REPORT.docx`](report/CUSTOMER_CHURN_REPORT.docx)
-- **Markdown Source:** [`report/project_report.md`](report/project_report.md)
-
-**Report Contents:**
-1. Executive Summary & Problem Formulation
-2. Dataset Architecture & Preprocessing Pipeline
-3. Descriptive Statistics & Central Tendency Measures
-4. Empirical Probability & Conditional Risk Analysis
-5. Inferential Hypothesis Testing ($\chi^2$, Welch's $t$, Pearson $r$)
-6. Binary Logistic Regression & Mathematical Formulations
-7. Test Set Model Validation & Performance Benchmarks
-8. Interactive R Shiny Web Application Architecture
-9. Strategic Business Recommendations & Retention Interventions
-10. References & Mathematical Appendix
-
----
-
 ## 👤 Author & Acknowledgments
 
 - **Author:** **K. Dhileep kumar** ([@Dhileepk-18](https://github.com/Dhileepk-18))
 - **Institution:** Applied Probability and Statistics Laboratory
 - **Dataset:** IBM Telco Customer Churn Sample Dataset
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
